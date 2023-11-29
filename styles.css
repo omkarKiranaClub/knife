@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.iframe {
+  flex-basis: 40%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 6%;
+}
+.container1 {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(180deg, #fffcfb 0%, #ffe8e1 100%);
+}
+
+.container2 {
+  background-color: #272932;
+  padding: 3% 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container3 {
+  padding: 0;
+  margin: 0;
+  padding: 8% 6%;
+  background: linear-gradient(180deg, #fff 0%, #fff8f5 100%);
+  background: linear-gradient(180deg, #fffcfb 0%, #ffe8e1 100%);
+}
+.emailError {
+  color: red;
+  bottom: -20px;
+}
+.blackLogo {
+  height: 30px;
+}
+
+.container2 h2 {
+  color: #f5e2c8;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  text-align: center;
+  width: 60%;
+}
+
+.container3 h2 {
+  color: var(--KC-Black, #272932);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+.textDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+}
+.carouselImg {
+  height: 268px;
+  width: 359px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  border: solid 1px #d94f29;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d94f29;
+  height: 50px;
+  text-decoration: none;
+  font-family: Roboto;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #d94f29; /* Change background color on hover */
+  color: white; /* Change font color on hover */
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 18px 5px; */
+  background-color: #d94f29;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  flex: 0.35;
+  height: 50px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+.landing {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3% 6%;
+  justify-content: space-between;
+}
+.landing h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 45.53px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.landing h4 {
+  color: var(--Gray-3, #828282);
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  margin: 0;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.landingLeft {
+  flex-basis: 50%;
+}
+.brandImg {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 12%;
+}
+
+.brandImg2 {
+  height: 128px;
+  width: 100%;
+}
+.brandImg2Res {
+  display: none;
+}
+.container3 .textDiv h2 {
+  width: 60%;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  background-color: #272932;
+  padding: 2% 6%;
+}
+
+footer h4 {
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 16.91px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.454px; /* 268.799% */
+  letter-spacing: 0px;
+  text-transform: capitalize;
+}
+.footerCta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerCta h5 {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.23px; /* 188.938% */
+  letter-spacing: 0.756px;
+  text-transform: capitalize;
+}
+
+.iframeContent {
+  height: 400px;
+}
+
+.whiteLogo {
+  height: 30px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+.brandImg1Res {
+  margin-bottom: 10%;
+  display: none;
+}
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  height: 50px;
+  position: relative;
+}
+input {
+  height: 50px;
+  flex: 1;
+  border-radius: 6px;
+  padding-left: 6px;
+  font-size: 20px;
+  border: solid 1px #c5c5c5;
+}
+
+button {
+  padding: 10px;
+  background-color: #d94f29;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d94f29;
+}
+::placeholder {
+  /* Set the color you want for the placeholder text */
+  color: #c5c5c5; /* This is a grey color; you can change it to your desired color */
+}
+
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -255px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  top: 30px; /* 30px from the bottom */
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 680px) {
+  .container2 {
+    padding: 5% 4%;
+  }
+  .container2 h2 {
+    color: #f5e2c8;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 23.4px */
+    width: 90%;
+  }
+  .container3 .textDiv h2 {
+    color: var(--KC-Black, #272932);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 23.4px */
+    width: 100%;
+  }
+  .carousel {
+    align-items: center;
+    justify-content: center;
+  }
+  .carouselImg {
+    margin-top: 1rem;
+    width: 282px;
+    height: 211px;
+  }
+
+  footer h4 {
+    color: #7c7c7c;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 1.136px;
+    text-transform: capitalize;
+  }
+
+  .footerCta h5 {
+    color: #fff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 8.699px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16.436px; /* 188.938% */
+    letter-spacing: 0.411px;
+    text-transform: capitalize;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .footerCta {
+    flex-direction: row;
+    margin-top: 2%;
+  }
+  .whiteLogo {
+    height: 20px;
+  }
+
+  footer h4 {
+    margin: 10px 0;
+    font-family: Inter;
+  }
+
+  footer {
+    padding: 4% 6%;
+  }
+
+  .blackLogo {
+    height: 20px;
+  }
+
+  .btn {
+    flex-basis: 40%;
+    font-size: 14px;
+    padding: 0;
+    height: 34px;
+  }
+  .landingLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .landingLeft h2 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .landingLeft h4 {
+    display: none;
+  }
+
+  header {
+    padding: 6%;
+  }
+  .landing {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10% 6%;
+  }
+  .iframe {
+    flex-basis: 100%;
+  }
+  .brandImg2 {
+    display: none;
+    height: 90px;
+  }
+  .brandImg {
+    height: 90px;
+  }
+  .brandImg2Res {
+    display: block;
+    height: 120px;
+    width: 100%;
+  }
+  .email {
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  input {
+    font-size: 16px;
+    padding: 10px 0;
+    padding-left: 10px;
+    margin-top: 1rem;
+  }
+  .btn1 {
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+    height: 54px;
+    margin-top: 2rem;
+    padding: 10px 0;
+    margin-bottom: 1rem;
+  }
+
+  .emailError {
+    position: absolute;
+    bottom: 50px;
+    color: red;
+  }
+  .brandImg1Res {
+    display: block;
+    height: 150px;
+    width: 100%;
+  }
+  .brandImg {
+    display: none;
+  }
+  #snackbar {
+    width: 100px;
+    margin-left: -100px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    left: 38%;
+  }
+  .iframeContent {
+    height: 200px;
+    margin-top: 6%;
+  }
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    top: 30px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    top: 30px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
